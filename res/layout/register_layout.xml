@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E9E9E8"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/collge_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textview_StudentNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/reg_StudentNo"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Enter Your Student number"
+            android:inputType="number"
+            android:maxLength="8"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textview_OtherCollege"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="College Name"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/reg_OtherCollege"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/reg_Name"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/reg_Email"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip"
+            android:hint="Your email id"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/reg_ContactNo"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip"
+            android:hint="Your mobile number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/reg_PartnerId"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip"
+            android:hint="TTID Of Partner"
+            android:maxLength="6"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/reg_Password"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/reg_ConfirmPassword"
+            style="@style/editt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#372c24"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/reg_GenderGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/RadioButtonMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/RadioButtonFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textColor="#372c24"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/branch_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textColor="#372c24"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/year_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/reg_checkBox_TShirt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="I Want a cool TechTrishna T-Shirt" />
+
+        <CheckBox
+            android:id="@+id/reg_checkBox_Accomodation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Accommodation" />
+
+        <Button
+            android:id="@+id/reg_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dip"
+            android:background="#42B4E6"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>

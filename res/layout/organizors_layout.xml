@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECECEC"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp" >
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_background_selector"
+                android:descendantFocusability="afterDescendants"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="@string/chiefOrganizer"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="6" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/card_background_selector"
+                    android:descendantFocusability="afterDescendants"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/parasharsir" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:text="@string/vkparashar"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:text="@string/vkparasharDetails"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/card_background_selector"
+                    android:descendantFocusability="afterDescendants"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pksharda" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:text="@string/sharda"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:text="@string/pkshardaDetails"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_background_selector"
+                android:descendantFocusability="afterDescendants"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="@string/convenors"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="6" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/card_background_selector"
+                    android:descendantFocusability="afterDescendants"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ashwin" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="3" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/ashwin"
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/ashwinPhone"
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/buttonAshwin"
+                            android:layout_width="15dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/contact"
+                            android:contentDescription="@string/ashwinPhone" >
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/card_background_selector"
+                    android:descendantFocusability="afterDescendants"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/prachi" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:text="@string/prachi"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/third"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:layout_marginTop="05dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="6" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/card_background_selector"
+                    android:descendantFocusability="afterDescendants"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/shalabh" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="3" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2.5"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/shalabh"
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/shalabhPhone"
+                                android:textColor="#000000"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/buttonTyagi"
+                            android:layout_width="15dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="0.5"
+                            android:background="@drawable/contact"
+                            android:contentDescription="@string/shalabhPhone" >
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/card_background_selector"
+                    android:descendantFocusability="afterDescendants"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/meenali" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:text="@string/meenali"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

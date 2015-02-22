@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background_selector"
+        android:descendantFocusability="afterDescendants"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="eventname"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line"
+            style="@style/hLine"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:paddingTop="10dp"
+            android:text="title"
+            android:textColor="#AEB2B5"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingTop="5dp"
+            android:text="feed"
+            android:textColor="#242D8F"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="6dp"
+            android:paddingTop="10dp"
+            android:text="timestamp"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</FrameLayout>
